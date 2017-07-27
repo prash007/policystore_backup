@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Object Class="CA.SM::Domain" CreatedDateTime="2017-07-25T09:02:35" ExportType="Replace" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Domain@03-556f74ea-07e7-4ca2-85ef-9b9fd98c61d0">
+            <Property Name="CA.SM::Domain.IsAffiliate">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::Domain.Mode">
+                <NumberValue>2</NumberValue>
+            </Property>
+            <Property Name="CA.SM::Domain.Name">
+                <StringValue>FedBackChannelCertDomain</StringValue>
+            </Property>
+            <Property Name="CA.SM::Domain.UserDirectoriesLink">
+                <LinkValue>
+                    <XID>CA.SM::UserDirectory@0e-6c89afa4-31b0-4caa-9d9b-75e47061f187</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Object Class="CA.SM::Policy" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Policy@04-e7add48e-3c64-4b76-a3b4-64b4509cf364">
+                <Property Name="CA.SM::Policy.AllowAccess">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.IsEnabled">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.Name">
+                    <StringValue>SAML2FedArtifactResolutionServicePolicyCert</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.TimeRestriction">
+                    <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>1</NumberValue>
+                </Property>
+                <Object Class="CA.SM::UserPolicy" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::UserPolicy@0f-68d53ab7-960f-4030-b423-04651bd6bd0c">
+                    <Property Name="CA.SM::UserPolicy.FilterClass">
+                        <StringValue>all</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.FilterPath">
+                        <StringValue>all</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyFlags">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyResolution">
+                        <NumberValue>7</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.UserDirectoryLink">
+                        <LinkValue>
+                            <XID>CA.SM::UserDirectory@0e-6c89afa4-31b0-4caa-9d9b-75e47061f187</XID>
+                        </LinkValue>
+                    </Property>
+                </Object>
+            </Object>
+            <Object Class="CA.SM::Realm" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Realm@06-8a992ca0-30ab-44cb-9f6d-b75701db1555">
+                <Property Name="CA.SM::Realm.AgentGroupLink">
+                    <LinkValue>
+                        <XID>CA.SM::AgentGroup@02-508a55db-ebc0-4753-8157-a622db30fcff</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AuthSchemeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AuthScheme@0d-c13ca72a-8865-418b-a7c3-1c0eaf879eb6</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Desc">
+                    <StringValue>Realm for Certificate BackChannel communications</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.IdleTimeout">
+                    <NumberValue>3600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MaxTimeout">
+                    <NumberValue>7200</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MinUserConfidenceLevel">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Name">
+                    <StringValue>FedCertBackChannelRealm</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAuthEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAzEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProtectAll">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ResourceFilter">
+                    <StringValue>/fedcertbackchannelauth</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionDrift">
+                    <NumberValue>-1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionType">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SyncAudit">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>1</NumberValue>
+                </Property>
+            </Object>
+            <Object Class="CA.SM::Response" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Response@07-03d75e05-baa0-4ace-91f5-fadce3b8f2e8">
+                <Property Name="CA.SM::Response.AccessAccept">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Response.AccessChallenge">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Response.AccessReject">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Response.AgentTypeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AgentType@10-8d78bb96-ae15-11d1-9cdd-006008aac24b</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Response.Desc">
+                    <StringValue>Returns the consumer name for ClientCert backchannel.</StringValue>
+                </Property>
+                <Property Name="CA.SM::Response.Name">
+                    <StringValue>ClientCertHeaderResponse</StringValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>1</NumberValue>
+                </Property>
+                <Object Class="CA.SM::ResponseAttr" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::ResponseAttr@08-b4448c58-4249-4458-bf28-f1e13c71a28c">
+                    <Property Name="CA.SM::ResponseAttr.AgentTypeAttrLink">
+                        <LinkValue>
+                            <XID>CA.SM::AgentTypeAttr@11-8d78bb90-ae15-11d1-9cdd-006008aac24b</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.Flags">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.TTL">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.Value">
+                        <StringValue>consumer_name=&lt;%userattr="uid"%&gt;</StringValue>
+                    </Property>
+                </Object>
+            </Object>
+        </Object>

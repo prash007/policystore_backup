@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CA.XPS>
+    <Object Class="CA.XPS::ExtractManifest" CreatedDateTime="2017-07-25T09:02:34" ExportType="Replace" ModifiedDateTime="2017-07-25T09:02:34" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.XPS::ExtractManifest@000a06ca-7ded-1806-bdeb-09980a820000">
+            <Property Name="CA.XPS::ExtractManifest.Description">
+                <StringValue>Needed for Internal Use</StringValue>
+            </Property>
+            <Property Name="CA.XPS::ExtractManifest.Name">
+                <StringValue>BoundaryObject1635352575</StringValue>
+            </Property>
+            <Property Name="CA.XPS::ExtractManifest.Status">
+                <NumberValue>1</NumberValue>
+            </Property>
+        </Object>
+</CA.XPS>

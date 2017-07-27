@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Object Class="CA.SM::Domain" CreatedDateTime="2017-07-25T08:57:44" ExportType="Replace" ModifiedDateTime="2017-07-25T09:02:34" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import 20170725090234.0Z" Xid="CA.SM::Domain@03-7bdf31f2-44d7-4d7b-a8f5-5de2eaa0b634">
+            <Property Name="CA.SM::Domain.Desc">
+                <StringValue>* Please do not edit this domain! This is a global domain. *</StringValue>
+            </Property>
+            <Property Name="CA.SM::Domain.IsAffiliate">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::Domain.Mode">
+                <NumberValue>4</NumberValue>
+            </Property>
+            <Property Name="CA.SM::Domain.Name">
+                <StringValue>03-7bdf31f2-44d7-4d7b-a8f5-5de2eaa0b634</StringValue>
+            </Property>
+            <Object Class="CA.SM::Realm" CreatedDateTime="2017-07-25T08:57:44" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import 20170725090235.0Z" Xid="CA.SM::Realm@06-0dc8052d-c84e-47b3-9f5c-98ecd0c46192">
+                <Property Name="CA.SM::Realm.Desc">
+                    <StringValue>* Please do not edit this realm! This is a global realm. *</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.IdleTimeout">
+                    <NumberValue>3600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MaxTimeout">
+                    <NumberValue>7200</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Name">
+                    <StringValue>06-0dc8052d-c84e-47b3-9f5c-98ecd0c46192</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAuthEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAzEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProtectAll">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionDrift">
+                    <NumberValue>-1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionType">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SyncAudit">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+            </Object>
+        </Object>

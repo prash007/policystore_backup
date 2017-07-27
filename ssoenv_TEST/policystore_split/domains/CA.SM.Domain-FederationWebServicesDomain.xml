@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Object Class="CA.SM::Domain" CreatedDateTime="2017-07-25T09:02:35" ExportType="Replace" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Domain@03-1c7ac22e-6646-4c61-8f2f-6261a0ef3a92">
+            <Property Name="CA.SM::Domain.IsAffiliate">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::Domain.Mode">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.SM::Domain.Name">
+                <StringValue>FederationWebServicesDomain</StringValue>
+            </Property>
+            <Property Name="CA.SM::Domain.UserDirectoriesLink">
+                <LinkValue>
+                    <XID>CA.SM::UserDirectory@0e-08c6cadb-e30b-4e06-9e2e-b3d7a866fab8</XID>
+                </LinkValue>
+                <LinkValue>
+                    <XID>CA.SM::UserDirectory@0e-3b0f4ccf-71f3-4968-b095-2b5a830c3244</XID>
+                </LinkValue>
+            </Property>
+            <Object Class="CA.SM::Policy" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Policy@04-2cd64129-7c6d-42ed-ac0c-9faef72e48b4">
+                <Property Name="CA.SM::Policy.AllowAccess">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.IsEnabled">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.Name">
+                    <StringValue>SAML2FWSArtifactResolutionServicePolicy</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.TimeRestriction">
+                    <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                </Property>
+                <Object Class="CA.SM::PolicyLink" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::PolicyLink@05-242fc6b0-4877-4c78-a446-64c6fd3c946c">
+                    <Property Name="CA.SM::PolicyLink.RuleLink">
+                        <LinkValue>
+                            <XID>CA.SM::Rule@0b-6546fe8e-d6f4-4f20-b779-6c8810be94db</XID>
+                        </LinkValue>
+                    </Property>
+                </Object>
+            </Object>
+            <Object Class="CA.SM::Policy" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Policy@04-3d844415-ee88-46f0-b646-cfbc57e248b8">
+                <Property Name="CA.SM::Policy.AllowAccess">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.IsEnabled">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.Name">
+                    <StringValue>FederationWSAssertionRetrievalServicePolicy</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.TimeRestriction">
+                    <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                </Property>
+                <Object Class="CA.SM::PolicyLink" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::PolicyLink@05-56f28424-017a-4dde-aafb-c134eb992fb4">
+                    <Property Name="CA.SM::PolicyLink.RuleLink">
+                        <LinkValue>
+                            <XID>CA.SM::Rule@0b-ebe4b3ce-5a34-4a64-b67b-d1e64dee414d</XID>
+                        </LinkValue>
+                    </Property>
+                </Object>
+            </Object>
+            <Object Class="CA.SM::Policy" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Policy@04-6d11edc8-b6f4-4522-a956-b3ad263705fb">
+                <Property Name="CA.SM::Policy.AllowAccess">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.IsEnabled">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.Name">
+                    <StringValue>FederationWSNotificationServicePolicy</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.TimeRestriction">
+                    <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.VariableExprString">
+                    <StringValue>(AllowNotification==1)</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.VariablesLink">
+                    <LinkValue>
+                        <XID>CA.SM::Variable@1d-dad4d124-7518-4b67-b72c-b4ef76622eb3</XID>
+                    </LinkValue>
+                </Property>
+                <Object Class="CA.SM::PolicyLink" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::PolicyLink@05-4c505d54-be84-4c65-b852-03ad90c7765b">
+                    <Property Name="CA.SM::PolicyLink.RuleLink">
+                        <LinkValue>
+                            <XID>CA.SM::Rule@0b-3d48caac-a7d5-4cf7-8722-ea9ed257fa42</XID>
+                        </LinkValue>
+                    </Property>
+                </Object>
+            </Object>
+            <Object Class="CA.SM::Policy" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Policy@04-70d60545-5316-49c3-ac96-ae5c75b7efe8">
+                <Property Name="CA.SM::Policy.AllowAccess">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.IsEnabled">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.Name">
+                    <StringValue>FederationWSSessionServicePolicy</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.TimeRestriction">
+                    <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.VariableExprString">
+                    <StringValue>(AllowSessionSync==1)</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.VariablesLink">
+                    <LinkValue>
+                        <XID>CA.SM::Variable@1d-98031368-1b9d-4d40-b572-91cef289f497</XID>
+                    </LinkValue>
+                </Property>
+                <Object Class="CA.SM::PolicyLink" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::PolicyLink@05-6ad7995a-928f-49a9-a6bc-856f0030c545">
+                    <Property Name="CA.SM::PolicyLink.RuleLink">
+                        <LinkValue>
+                            <XID>CA.SM::Rule@0b-7f5c5171-8af3-48b0-897c-89d02ac15d43</XID>
+                        </LinkValue>
+                    </Property>
+                </Object>
+            </Object>
+            <Object Class="CA.SM::Policy" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Policy@04-cd5ddc55-3390-4dbe-ad05-880a7a2eb918">
+                <Property Name="CA.SM::Policy.AllowAccess">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.IsEnabled">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.Name">
+                    <StringValue>SAML2FWSAttributeServicePolicy</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.TimeRestriction">
+                    <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                </Property>
+                <Object Class="CA.SM::PolicyLink" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::PolicyLink@05-131fee10-e064-413d-ad58-36eafe9ec216">
+                    <Property Name="CA.SM::PolicyLink.RuleLink">
+                        <LinkValue>
+                            <XID>CA.SM::Rule@0b-449dcdc0-89ac-4aa0-8e25-c884cb7f4ad2</XID>
+                        </LinkValue>
+                    </Property>
+                </Object>
+            </Object>
+            <Object Class="CA.SM::Realm" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Realm@06-51db1906-7a91-4b0d-9772-954444d1ae70">
+                <Property Name="CA.SM::Realm.AgentGroupLink">
+                    <LinkValue>
+                        <XID>CA.SM::AgentGroup@02-3a7b7c62-be09-4a37-b45f-b0220c9e088e</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AuthSchemeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AuthScheme@0d-4afc0e42-ae25-11d1-9cdd-006008aac24b</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.IdleTimeout">
+                    <NumberValue>3600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MaxTimeout">
+                    <NumberValue>7200</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Name">
+                    <StringValue>public</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAuthEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAzEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProtectAll">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ResourceFilter">
+                    <StringValue>/affwebservices/public</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionDrift">
+                    <NumberValue>-1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionType">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SyncAudit">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+            </Object>
+            <Object Class="CA.SM::Realm" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Realm@06-a0cf82a7-d831-453d-ac9e-8ed814f90369">
+                <Property Name="CA.SM::Realm.AgentGroupLink">
+                    <LinkValue>
+                        <XID>CA.SM::AgentGroup@02-3a7b7c62-be09-4a37-b45f-b0220c9e088e</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AuthSchemeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AuthScheme@0d-4afc0e42-ae25-11d1-9cdd-006008aac24b</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.IdleTimeout">
+                    <NumberValue>3600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MaxTimeout">
+                    <NumberValue>7200</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Name">
+                    <StringValue>FederationWebServicesRealm</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAuthEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAzEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProtectAll">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ResourceFilter">
+                    <StringValue>/affwebservices</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionDrift">
+                    <NumberValue>-1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionType">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SyncAudit">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Object Class="CA.SM::Rule" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Rule@0b-3d48caac-a7d5-4cf7-8722-ea9ed257fa42">
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>Get</StringValue>
+                        <StringValue>Post</StringValue>
+                        <StringValue>Put</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>FederationWSNotificationServiceRule</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>false</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>/router/notification*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                </Object>
+                <Object Class="CA.SM::Rule" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Rule@0b-449dcdc0-89ac-4aa0-8e25-c884cb7f4ad2">
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>Get</StringValue>
+                        <StringValue>Post</StringValue>
+                        <StringValue>Put</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>SAML2FWSAttributeServiceRule</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>false</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>/saml2attributeservice*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                </Object>
+                <Object Class="CA.SM::Rule" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Rule@0b-6546fe8e-d6f4-4f20-b779-6c8810be94db">
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>Get</StringValue>
+                        <StringValue>Post</StringValue>
+                        <StringValue>Put</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>SAML2FWSArtifactResolutionRule</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>false</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>/saml2artifactresolution*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                </Object>
+                <Object Class="CA.SM::Rule" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Rule@0b-7f5c5171-8af3-48b0-897c-89d02ac15d43">
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>Get</StringValue>
+                        <StringValue>Post</StringValue>
+                        <StringValue>Put</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>FederationWSSessionServiceRule</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>false</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>/router/session*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                </Object>
+                <Object Class="CA.SM::Rule" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Rule@0b-ebe4b3ce-5a34-4a64-b67b-d1e64dee414d">
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>Get</StringValue>
+                        <StringValue>Post</StringValue>
+                        <StringValue>Put</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>FederationWSAssertionRetrievalServiceRule</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>false</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>/AssertionRetriever*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                </Object>
+            </Object>
+            <Object Class="CA.SM::Variable" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Variable@1d-98031368-1b9d-4d40-b572-91cef289f497">
+                <Property Name="CA.SM::Variable.Definition" Sensitive="Yes">
+                    <StringValue>{AESKW}nVtuLgKqCX31eSbNWKv8w0xFUNCpSEZpYlhkCyWdc1BRz6zEUumiQSBEnCA4pTmqRF9yA2a7DRJJJsSGE0EOpAT67JzFk29G9BabVHaozDR8EwTBRg2bmnSFOvOo//aoR3bRdMfDey6cQsd5eUhS9VKI7XUSlK5NWluGlQTcPzKVJhUAgYDH1Qj/mXR/7Kq2JuGWbezPs+y9g9EACl1v8Wvb7E0uHM6cQQnHuNQhKVI=</StringValue>
+                </Property>
+                <Property Name="CA.SM::Variable.Name">
+                    <StringValue>AllowSessionSync</StringValue>
+                </Property>
+                <Property Name="CA.SM::Variable.PreFetchFlag">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Variable.ReturnType">
+                    <NumberValue>3</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Variable.VariableTypeLink">
+                    <LinkValue>
+                        <XID>CA.SM::VariableType@1e-4afc0e38-ae25-11d1-9cdd-006008aac24b</XID>
+                    </LinkValue>
+                </Property>
+            </Object>
+            <Object Class="CA.SM::Variable" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Variable@1d-dad4d124-7518-4b67-b72c-b4ef76622eb3">
+                <Property Name="CA.SM::Variable.Definition" Sensitive="Yes">
+                    <StringValue>{AESKW}biAfFnyMhMW0g47N2xibZJQvNaigf9ApKG7wj2TiyIwYdTbE0JaBWCcStxcVNVhTJkigTbNhupfEkyHdrIQpYpAWJ9JbGw2GbSIsGE/9DrdIDqB3iGyMcckf4kF5BQ+0qlFJvAu0rgK9ewaREtIr0zu8I6YP8UE6rvl3s0LNVOBrsMxL9fal+ntIswT/3EMaAnrWWmLdS1EcX2v/ufX3gD8BOG1f/5Xt</StringValue>
+                </Property>
+                <Property Name="CA.SM::Variable.Name">
+                    <StringValue>AllowNotification</StringValue>
+                </Property>
+                <Property Name="CA.SM::Variable.PreFetchFlag">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Variable.ReturnType">
+                    <NumberValue>3</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Variable.VariableTypeLink">
+                    <LinkValue>
+                        <XID>CA.SM::VariableType@1e-4afc0e38-ae25-11d1-9cdd-006008aac24b</XID>
+                    </LinkValue>
+                </Property>
+            </Object>
+        </Object>

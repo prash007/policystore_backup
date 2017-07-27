@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SecurityData>
+        <Administrator>
+            <UserPath>SM-ADMIN-DIRECTORY</UserPath>
+            <Name>SiteMinder Administrative UI Directory User</Name>
+            <Description>Used by the UI for authenticating administrators</Description>
+            <MethodsAllowed>4</MethodsAllowed>
+            <Workspaces/>
+            <Grant>
+                <SecurityCategory>!Admin Administration</SecurityCategory>
+                <Rights>2097152</Rights>
+            </Grant>
+        </Administrator>
+    </SecurityData>

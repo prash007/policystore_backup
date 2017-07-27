@@ -1,0 +1,30 @@
+<list>
+  <com.ca.psbackup.versioncontrol.DomainXidMapEntry>
+    <xid>CA.SM::Domain@03-1c7ac22e-6646-4c61-8f2f-6261a0ef3a92</xid>
+    <domainName>FederationWebServicesDomain</domainName>
+  </com.ca.psbackup.versioncontrol.DomainXidMapEntry>
+  <com.ca.psbackup.versioncontrol.DomainXidMapEntry>
+    <xid>CA.SM::Domain@03-2dc3c12c-8bf4-4d32-a1f7-f18e913233d5</xid>
+    <domainName>FedBackChannelBasicDomain</domainName>
+  </com.ca.psbackup.versioncontrol.DomainXidMapEntry>
+  <com.ca.psbackup.versioncontrol.DomainXidMapEntry>
+    <xid>CA.SM::Domain@03-2f82d381-a719-46d1-be78-ad1c37d51251</xid>
+    <domainName>Domain-test</domainName>
+  </com.ca.psbackup.versioncontrol.DomainXidMapEntry>
+  <com.ca.psbackup.versioncontrol.DomainXidMapEntry>
+    <xid>CA.SM::Domain@03-3619a81b-f149-49e3-9db1-e5a99813b28c</xid>
+    <domainName>DOMAIN-SPSADMINUI-proxy_agent1</domainName>
+  </com.ca.psbackup.versioncontrol.DomainXidMapEntry>
+  <com.ca.psbackup.versioncontrol.DomainXidMapEntry>
+    <xid>CA.SM::Domain@03-556f74ea-07e7-4ca2-85ef-9b9fd98c61d0</xid>
+    <domainName>FedBackChannelCertDomain</domainName>
+  </com.ca.psbackup.versioncontrol.DomainXidMapEntry>
+  <com.ca.psbackup.versioncontrol.DomainXidMapEntry>
+    <xid>CA.SM::Domain@03-5d37060d-4fb9-4ac8-9add-29de91446a86</xid>
+    <domainName>DOMAIN-SPSADMINUI-proxy_agent2</domainName>
+  </com.ca.psbackup.versioncontrol.DomainXidMapEntry>
+  <com.ca.psbackup.versioncontrol.DomainXidMapEntry>
+    <xid>CA.SM::Domain@03-7bdf31f2-44d7-4d7b-a8f5-5de2eaa0b634</xid>
+    <domainName>03-7bdf31f2-44d7-4d7b-a8f5-5de2eaa0b634</domainName>
+  </com.ca.psbackup.versioncontrol.DomainXidMapEntry>
+</list>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Object Class="CA.SM::Domain" CreatedDateTime="2017-07-25T09:02:35" ExportType="Replace" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Domain@03-5d37060d-4fb9-4ac8-9add-29de91446a86">
+            <Property Name="CA.SM::Domain.Desc">
+                <StringValue>Domain for protecting proxyUI</StringValue>
+            </Property>
+            <Property Name="CA.SM::Domain.IsAffiliate">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::Domain.IsDLP">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::Domain.Mode">
+                <NumberValue>2</NumberValue>
+            </Property>
+            <Property Name="CA.SM::Domain.Name">
+                <StringValue>DOMAIN-SPSADMINUI-proxy_agent2</StringValue>
+            </Property>
+            <Property Name="CA.SM::Domain.UserDirectoriesLink">
+                <LinkValue>
+                    <XID>CA.SM::UserDirectory@0e-eacb08b3-7df5-4a07-86a8-cdbd22b7d4f6</XID>
+                </LinkValue>
+            </Property>
+            <Object Class="CA.SM::Policy" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Policy@04-98e92846-977c-4db6-a875-15a7bfd36fbf">
+                <Property Name="CA.SM::Policy.AllowAccess">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.Desc">
+                    <StringValue>policy for protecting proxyUI</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.IsEnabled">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.Name">
+                    <StringValue>POLICY-SPSADMINUI-proxy_agent2</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.TimeRestriction">
+                    <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.ValidateIdDifferentUser">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.ValidateIdentity">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Object Class="CA.SM::PolicyLink" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::PolicyLink@05-6b897efa-cd6f-4d35-96c1-1fa7c91eeee5">
+                    <Property Name="CA.SM::PolicyLink.RuleLink">
+                        <LinkValue>
+                            <XID>CA.SM::Rule@0b-42ad33f6-aad4-42b6-95fc-97b55afeb687</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                </Object>
+                <Object Class="CA.SM::UserPolicy" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::UserPolicy@0f-1805d41b-a2fb-49a8-8a5a-bc97db198182">
+                    <Property Name="CA.SM::UserPolicy.FilterClass">
+                        <StringValue>All</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.FilterPath">
+                        <StringValue>All</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyFlags">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyResolution">
+                        <NumberValue>7</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.UserDirectoryLink">
+                        <LinkValue>
+                            <XID>CA.SM::UserDirectory@0e-eacb08b3-7df5-4a07-86a8-cdbd22b7d4f6</XID>
+                        </LinkValue>
+                    </Property>
+                </Object>
+            </Object>
+            <Object Class="CA.SM::Realm" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Realm@06-a0204b25-aaf4-43da-87d2-fcb15f50c33d">
+                <Property Name="CA.SM::Realm.AgentLink">
+                    <LinkValue>
+                        <XID>CA.SM::Agent@01-217f64f2-d1ee-400c-a317-2bf037ca197c</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AuthSchemeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AuthScheme@0d-0897c678-1ff5-4bdb-b26e-f8a4c53f2cb6</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.IdleTimeout">
+                    <NumberValue>3600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MaxTimeout">
+                    <NumberValue>7200</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Name">
+                    <StringValue>REALM-GRPSYNC-SPSADMINUI-proxy_agent2</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ParentRealmLink">
+                    <LinkValue>
+                        <XID>CA.SM::Realm@06-ef3ffa2a-3e16-4f0a-97a7-2fd6bd01697e</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAuthEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAzEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProtectAll">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ResourceFilter">
+                    <StringValue>/GroupSyncServlet</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionDrift">
+                    <NumberValue>-1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionType">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SyncAudit">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+            </Object>
+            <Object Class="CA.SM::Realm" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Realm@06-ef3ffa2a-3e16-4f0a-97a7-2fd6bd01697e">
+                <Property Name="CA.SM::Realm.AgentLink">
+                    <LinkValue>
+                        <XID>CA.SM::Agent@01-217f64f2-d1ee-400c-a317-2bf037ca197c</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AuthSchemeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AuthScheme@0d-0897c678-1ff5-4bdb-b26e-f8a4c53f2cb6</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.IdleTimeout">
+                    <NumberValue>3600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MaxTimeout">
+                    <NumberValue>7200</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MinUserConfidenceLevel">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Name">
+                    <StringValue>REALM-SPSADMINUI-proxy_agent2</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAuthEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAzEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProtectAll">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ResourceFilter">
+                    <StringValue>/proxyui/</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionDrift">
+                    <NumberValue>-1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionType">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SyncAudit">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Object Class="CA.SM::Rule" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Rule@0b-42ad33f6-aad4-42b6-95fc-97b55afeb687">
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>Get</StringValue>
+                        <StringValue>Post</StringValue>
+                        <StringValue>Put</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Desc">
+                        <StringValue>Rule for protecting Proxy UI</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>RULE-SPSADMINUI-proxy_agent2</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>false</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                </Object>
+            </Object>
+        </Object>

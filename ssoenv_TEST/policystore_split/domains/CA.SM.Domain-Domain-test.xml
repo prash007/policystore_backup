@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Object Class="CA.SM::Domain" CreatedDateTime="2017-07-25T09:02:35" ExportType="Replace" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Domain@03-2f82d381-a719-46d1-be78-ad1c37d51251">
+            <Property Name="CA.SM::Domain.Desc">
+                <StringValue>##Domain for prashantsahu.com##</StringValue>
+            </Property>
+            <Property Name="CA.SM::Domain.IsAffiliate">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::Domain.IsDLP">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::Domain.Mode">
+                <NumberValue>2</NumberValue>
+            </Property>
+            <Property Name="CA.SM::Domain.Name">
+                <StringValue>Domain-test</StringValue>
+            </Property>
+            <Property Name="CA.SM::Domain.UserDirectoriesLink">
+                <LinkValue>
+                    <XID>CA.SM::UserDirectory@0e-eacb08b3-7df5-4a07-86a8-cdbd22b7d4f6</XID>
+                </LinkValue>
+            </Property>
+            <Object Class="CA.SM::Policy" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Policy@04-123573ef-d924-4ccb-86de-c8bc8f3a4779">
+                <Property Name="CA.SM::Policy.AllowAccess">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.Desc">
+                    <StringValue>Policy for prashantsahu.com</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.IsEnabled">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.Name">
+                    <StringValue>policy test</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.TimeRestriction">
+                    <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.ValidateIdDifferentUser">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.ValidateIdentity">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Object Class="CA.SM::PolicyLink" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::PolicyLink@05-7e117f80-7717-4db2-bcec-b560880b0183">
+                    <Property Name="CA.SM::PolicyLink.RuleLink">
+                        <LinkValue>
+                            <XID>CA.SM::Rule@0b-4b9ac962-025c-4176-9595-e5288d50ab13</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                </Object>
+                <Object Class="CA.SM::UserPolicy" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::UserPolicy@0f-11756e3f-f676-41c4-9c33-0f0b9c2fc07e">
+                    <Property Name="CA.SM::UserPolicy.FilterClass">
+                        <StringValue>user</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.FilterPath">
+                        <StringValue>CN=prashant,CN=Users,DC=amazonaws,DC=com</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyFlags">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyResolution">
+                        <NumberValue>1</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.UserDirectoryLink">
+                        <LinkValue>
+                            <XID>CA.SM::UserDirectory@0e-eacb08b3-7df5-4a07-86a8-cdbd22b7d4f6</XID>
+                        </LinkValue>
+                    </Property>
+                </Object>
+                <Object Class="CA.SM::UserPolicy" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::UserPolicy@0f-79861a56-fd84-4a3c-82ef-7888d7b60e32">
+                    <Property Name="CA.SM::UserPolicy.FilterClass">
+                        <StringValue>user</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.FilterPath">
+                        <StringValue>CN=siteminder,CN=Users,DC=amazonaws,DC=com</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyFlags">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyResolution">
+                        <NumberValue>1</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.UserDirectoryLink">
+                        <LinkValue>
+                            <XID>CA.SM::UserDirectory@0e-eacb08b3-7df5-4a07-86a8-cdbd22b7d4f6</XID>
+                        </LinkValue>
+                    </Property>
+                </Object>
+                <Object Class="CA.SM::UserPolicy" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::UserPolicy@0f-a2bd99cc-6ca3-4519-af18-fc4abb64db0c">
+                    <Property Name="CA.SM::UserPolicy.FilterClass">
+                        <StringValue>user</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.FilterPath">
+                        <StringValue>CN=Administrator,CN=Users,DC=amazonaws,DC=com</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyFlags">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyResolution">
+                        <NumberValue>1</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.UserDirectoryLink">
+                        <LinkValue>
+                            <XID>CA.SM::UserDirectory@0e-eacb08b3-7df5-4a07-86a8-cdbd22b7d4f6</XID>
+                        </LinkValue>
+                    </Property>
+                </Object>
+            </Object>
+            <Object Class="CA.SM::Realm" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T18:42:00" UpdateMethod="GUI" UpdatedBy="siteminder 20170725184200.0Z" Xid="CA.SM::Realm@06-95d34d7a-5224-4dce-a085-93b3e9d5558a">
+                <Property Name="CA.SM::Realm.AgentLink">
+                    <LinkValue>
+                        <XID>CA.SM::Agent@01-6b3886b0-64ec-4f91-8aa8-4dded2a0cf9a</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AuthSchemeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AuthScheme@0d-118d6288-2cd8-46b4-bbdd-d371dcfbd539</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.IdleTimeout">
+                    <NumberValue>3600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MaxTimeout">
+                    <NumberValue>7200</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MinUserConfidenceLevel">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Name">
+                    <StringValue>Realm test</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAuthEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAzEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProtectAll">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ResourceFilter">
+                    <StringValue>/</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionDrift">
+                    <NumberValue>-1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionType">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SyncAudit">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Object Class="CA.SM::Rule" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Rule@0b-4b9ac962-025c-4176-9595-e5288d50ab13">
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>Get</StringValue>
+                        <StringValue>Post</StringValue>
+                        <StringValue>Put</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>rule test</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>false</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                </Object>
+            </Object>
+            <Object Class="CA.SM::Response" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Response@07-6f1f8e64-ec54-48c8-ab90-3b3e29373143">
+                <Property Name="CA.SM::Response.AccessAccept">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Response.AccessChallenge">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Response.AccessReject">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Response.AgentTypeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AgentType@10-8d78bb96-ae15-11d1-9cdd-006008aac24b</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Response.Name">
+                    <StringValue>Test-response</StringValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Object Class="CA.SM::ResponseAttr" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::ResponseAttr@08-e0c607b3-97f6-40ef-86f2-6e9c9a64f398">
+                    <Property Name="CA.SM::ResponseAttr.AgentTypeAttrLink">
+                        <LinkValue>
+                            <XID>CA.SM::AgentTypeAttr@11-8d78bb90-ae15-11d1-9cdd-006008aac24b</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.Flags">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.TTL">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.Value">
+                        <StringValue>smuser=&lt;%userattr="cn" %&gt;</StringValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                </Object>
+            </Object>
+        </Object>

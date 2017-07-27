@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Object Class="CA.SM::Domain" CreatedDateTime="2017-07-25T09:02:35" ExportType="Replace" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Domain@03-2dc3c12c-8bf4-4d32-a1f7-f18e913233d5">
+            <Property Name="CA.SM::Domain.IsAffiliate">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::Domain.Mode">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.SM::Domain.Name">
+                <StringValue>FedBackChannelBasicDomain</StringValue>
+            </Property>
+            <Property Name="CA.SM::Domain.UserDirectoriesLink">
+                <LinkValue>
+                    <XID>CA.SM::UserDirectory@0e-f741be64-b38b-4d98-a431-b96548214981</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Object Class="CA.SM::Policy" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Policy@04-a2efb6ba-95ea-4a28-8885-5e3c7c403c2d">
+                <Property Name="CA.SM::Policy.AllowAccess">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.IsEnabled">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.Name">
+                    <StringValue>SAML2FedArtifactResolutionServicePolicyBasic</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.TimeRestriction">
+                    <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>1</NumberValue>
+                </Property>
+                <Object Class="CA.SM::UserPolicy" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::UserPolicy@0f-e09601e4-04f1-4ca7-9e17-a76bbb4d3560">
+                    <Property Name="CA.SM::UserPolicy.FilterClass">
+                        <StringValue>Group</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.FilterPath">
+                        <StringValue>affiliate:LocalFederation</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyFlags">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyResolution">
+                        <NumberValue>2</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.UserDirectoryLink">
+                        <LinkValue>
+                            <XID>CA.SM::UserDirectory@0e-f741be64-b38b-4d98-a431-b96548214981</XID>
+                        </LinkValue>
+                    </Property>
+                </Object>
+            </Object>
+            <Object Class="CA.SM::Realm" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Realm@06-1cdeddf8-9346-4626-8c5b-6d674c8fb302">
+                <Property Name="CA.SM::Realm.AgentGroupLink">
+                    <LinkValue>
+                        <XID>CA.SM::AgentGroup@02-508a55db-ebc0-4753-8157-a622db30fcff</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AuthSchemeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AuthScheme@0d-4afc0e42-ae25-11d1-9cdd-006008aac24b</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Desc">
+                    <StringValue>Realm for basic BackChannel communications</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.IdleTimeout">
+                    <NumberValue>3600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MaxTimeout">
+                    <NumberValue>7200</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Name">
+                    <StringValue>FedBasicBackChannelRealm</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAuthEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAzEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProtectAll">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ResourceFilter">
+                    <StringValue>/fedbasicbackchannelauth</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionDrift">
+                    <NumberValue>-1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionType">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SyncAudit">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>1</NumberValue>
+                </Property>
+            </Object>
+        </Object>
