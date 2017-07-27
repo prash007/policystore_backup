@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created by CA SiteMinder Version 12.7.0000.1194
      by os:AMAZONAWS/Administrator
-     at 03:27:09 on 2017-07-27 -->
+     at 03:51:43 on 2017-07-27 -->
 <XPS
-     TransferKey="{AESKW}soUdrZHtpXwSDairCvOcISWjFkMAr8QDDv47vdD3/a3FzN/HeIm/vVDdh0gtoxh6">
+     TransferKey="{AESKW}X5OXBfCG2Pp0sD4wcwuyWIUUBEEbz2OTtCxn6rVyvZRQ1ftLNqiY/IpeGRRGg6vb">
     <XPSVersion>1</XPSVersion>
     <HostInformation>WIN-R605P14ET07</HostInformation>
     <XPSAdmin>os:AMAZONAWS/Administrator</XPSAdmin>
@@ -40,25 +40,25 @@
                 <StringValue>FedBCCertUserDirectory</StringValue>
             </ReferenceValue>
             <ReferenceValue ReferenceId="Ref00011">
-                <StringValue>SAML2</StringValue>
+                <StringValue>smdspropcfed</StringValue>
             </ReferenceValue>
             <ReferenceValue ReferenceId="Ref00012">
-                <StringValue>smdspropcfed</StringValue>
+                <StringValue>SAML2</StringValue>
             </ReferenceValue>
             <ReferenceValue ReferenceId="Ref00013">
                 <StringValue>smdspropc</StringValue>
             </ReferenceValue>
             <ReferenceValue ReferenceId="Ref00014">
-                <StringValue>https:///siteminderagent/certoptional/smgetcred.scc?certorbasic</StringValue>
-            </ReferenceValue>
-            <ReferenceValue ReferenceId="Ref00015">
-                <StringValue>dc=ssoad,dc=amazonaws,dc=com</StringValue>
-            </ReferenceValue>
-            <ReferenceValue ReferenceId="Ref00016">
                 <StringValue>http:///siteminderagent/ntlm/creds.ntc</StringValue>
             </ReferenceValue>
-            <ReferenceValue ReferenceId="Ref00017">
+            <ReferenceValue ReferenceId="Ref00015">
                 <StringValue>172.31.21.14:389 172.31.35.32:389</StringValue>
+            </ReferenceValue>
+            <ReferenceValue ReferenceId="Ref00016">
+                <StringValue>https:///siteminderagent/certoptional/smgetcred.scc?certorbasic</StringValue>
+            </ReferenceValue>
+            <ReferenceValue ReferenceId="Ref00017">
+                <StringValue>dc=ssoad,dc=amazonaws,dc=com</StringValue>
             </ReferenceValue>
             <ReferenceValue ReferenceId="Ref00018">
                 <StringValue>https:///siteminderagent/nocert/smgetcred.scc?basic</StringValue>
@@ -1648,7 +1648,7 @@
                 <StringValue>#CookiePath=0=no</StringValue>
             </Property><!-- Name="CA.SM::AgentConfig.Attributes" -->
         </Object><!-- Xid="CA.SM::AgentConfig@21-ec148d1a-f5c5-41f0-9320-418b9847fed9" -->
-        <Object Class="CA.SM::AgentConfig" Xid="CA.SM::AgentConfig@21-ae8c78db-2ab2-4455-82c4-1ef45866cedb" CreatedDateTime="2017-07-25T09:02:34" ModifiedDateTime="2017-07-25T09:35:15" UpdatedBy="siteminder 20170725093515.0Z" UpdateMethod="GUI" ExportType="Replace">
+        <Object Class="CA.SM::AgentConfig" Xid="CA.SM::AgentConfig@21-ae8c78db-2ab2-4455-82c4-1ef45866cedb" CreatedDateTime="2017-07-25T09:02:34" ModifiedDateTime="2017-07-27T10:50:00" UpdatedBy="siteminder 20170727105000.0Z" UpdateMethod="GUI" ExportType="Replace">
             <Property Name="CA.SM::AgentConfig.Name">
                 <StringValue>SPSagentConfig_fcc</StringValue>
             </Property>
@@ -8458,7 +8458,7 @@
                 <BooleanValue>false</BooleanValue>
             </Property>
             <Property Name="CA.SM::TrustedHost.Secret" Sensitive="Yes">
-                <StringValue>{AESKW}nliTn4JU1c111ljqaXq4xXR7DvPgDEiijoRlGAt+krVZsd64ra8LTVg7G5NfwFjT+D6Di4E+daC9/FHnyOpx3lSJQ6rgbtICTUjChcVIE6aq3Y+eYXyj23pDN7FWnORR65IKR5nKhiOu3Xh6ipV2YAgRlCVQZWWGeaATl+uxfumT5DhbIr+Wo1sICTGUUwIp</StringValue>
+                <StringValue>{AESKW}yZ2QwAt5cObnH2yIPXPnjpLT2buwBBEjFCMdNK4NzcTje8Or1YbdsWLgqasXNjxSYSpK8Cu+x4F4w9wr37/7Y4vVShxb0n3Q68e9hehd+MKz3FhPVL0CmDeo72gld2ndEEZfb9z6laLP4Ncp/Z9AutxgzyvjsAthb6yjjb+UA3gptrCSMUDrlg64odwyY16A</StringValue>
             </Property>
             <Property Name="CA.SM::TrustedHost.IpAddr">
                 <LinkValue><XREF>Ref00005</XREF></LinkValue>
@@ -8481,7 +8481,7 @@
                 <BooleanValue>false</BooleanValue>
             </Property>
             <Property Name="CA.SM::TrustedHost.Secret" Sensitive="Yes">
-                <StringValue>{AESKW}Ta0i6B4yFJlm1rtrh4ZODYVhfGE8DxjGuuCXBlOZJn5IRcZ8env9VMlRxwbi5V1ngEMsSdoVLpzrotN+0nK5ggthikERDufxwqSKIK0ty/5E59EsBl0YEXKZ9Nu4Q7TnkHvEceG2Ks8/9CckaxDW3tQ+zDJ2wBelpFpHOUjiQyxvvi50nhFWuw6e1g0Ve3xc</StringValue>
+                <StringValue>{AESKW}x2LR7kHBi91c5DiihKzqYr6IT+3BaEKzEQrsdJJQEOdKxVcRvrNHF/ADas2ouDsjvV2OhABYxOimtncgqMbOygTsfFdsnZYo86y4uEpHRLOxaxPBeoJxjxG63c3wG2r2sV2eiVjtHdF/8+qVARtB1woVS2ft9FdbRckQCt12j8XdP8F6djn7eWeD7ZFI0hJy</StringValue>
             </Property>
             <Property Name="CA.SM::TrustedHost.SecretGenTime">
                 <NumberValue>0</NumberValue>
@@ -8501,7 +8501,7 @@
                 <BooleanValue>false</BooleanValue>
             </Property>
             <Property Name="CA.SM::TrustedHost.Secret" Sensitive="Yes">
-                <StringValue>{AESKW}n7EaEKJirapbLL4QYr3oUsDwF5Xpo1ccwXqnr1gUXC9Hhkl/feImMZx30Izk8yFpiaHjPpD+PPK01iqRrx3ttPR8F4xk4GhI04SR6vslT0UVbgH4Ir4jeKnj36evUY3wNElVGMGaNDVgOFhR6ydw/kho82PV4g+hxS9jGFkBAqWok77e4YQPM17E1asX7b0G</StringValue>
+                <StringValue>{AESKW}PmxPoArBfmGnqEd6eFO16wYQZVUUPJKTBRvpwhwLKvIxZTZP/haIp5FhWSoNUpE2JhakvB7kEwJEs3Y6F8pMNUF69FIDibY33VwGQbyKun1OlCApKNNp2RTPkT6GAVmTqEM5UHpP3K24zO+pIXbUhreDvEgaTatNp3vKfOX7PzzUxbERKbwHG8lHd+90XPax</StringValue>
             </Property>
             <Property Name="CA.SM::TrustedHost.SecretGenTime">
                 <NumberValue>0</NumberValue>
@@ -8542,7 +8542,7 @@
                 <LinkValue><XREF>Ref00008</XREF></LinkValue>
             </Property>
             <Property Name="CA.SM::UserDirectory.Password" Sensitive="Yes">
-                <StringValue>{AESKW}dINw5ilhpjvH0CtdNXysVkjVnvrAg5as</StringValue>
+                <StringValue>{AESKW}B+VdnMJH885JJV6NT1yjhAhz+eDTQi+a</StringValue>
             </Property>
             <Property Name="CA.SM::UserDirectory.SecureConnection">
                 <BooleanValue>false</BooleanValue>
@@ -8589,7 +8589,7 @@
                 <LinkValue><XREF>Ref00009</XREF></LinkValue>
             </Property>
             <Property Name="CA.SM::UserDirectory.Password" Sensitive="Yes">
-                <StringValue>{AESKW}JqGwBWMGlvZwh86yDQZJIFzVUHv9p5Ml</StringValue>
+                <StringValue>{AESKW}HBH4fhHJsspDMbo2PdQz8YhadyT9+/4p</StringValue>
             </Property>
             <Property Name="CA.SM::UserDirectory.SecureConnection">
                 <BooleanValue>false</BooleanValue>
@@ -8638,7 +8638,7 @@
         </Object><!-- Xid="CA.SM::UserDirectory@0e-6c89afa4-31b0-4caa-9d9b-75e47061f187" -->
         <Object Class="CA.SM::UserDirectory" Xid="CA.SM::UserDirectory@0e-f741be64-b38b-4d98-a431-b96548214981" CreatedDateTime="2017-07-25T09:02:34" ModifiedDateTime="2017-07-25T09:02:34" UpdatedBy="XPSDictionary::Import" UpdateMethod="Internal" ExportType="Replace">
             <Property Name="CA.SM::UserDirectory.Server">
-                <LinkValue><XREF>Ref00012</XREF></LinkValue>
+                <LinkValue><XREF>Ref00011</XREF></LinkValue>
             </Property>
             <Property Name="CA.SM::UserDirectory.Namespace">
                 <StringValue>Custom:</StringValue>
@@ -8653,7 +8653,7 @@
                 <StringValue>Custom user store for Federation BackChannel communications</StringValue>
             </Property>
             <Property Name="CA.SM::UserDirectory.SearchRoot">
-                <LinkValue><XREF>Ref00011</XREF></LinkValue>
+                <LinkValue><XREF>Ref00012</XREF></LinkValue>
             </Property>
             <Property Name="CA.SM::UserDirectory.SearchResults">
                 <NumberValue>0</NumberValue>
@@ -8723,7 +8723,7 @@
                 <StringValue>list of all the service providers</StringValue>
             </Property>
             <Property Name="CA.SM::UserDirectory.SearchRoot">
-                <LinkValue><XREF>Ref00011</XREF></LinkValue>
+                <LinkValue><XREF>Ref00012</XREF></LinkValue>
             </Property>
             <Property Name="CA.SM::UserDirectory.SearchResults">
                 <NumberValue>0</NumberValue>
@@ -8743,7 +8743,7 @@
         </Object><!-- Xid="CA.SM::UserDirectory@0e-3b0f4ccf-71f3-4968-b095-2b5a830c3244" -->
         <Object Class="CA.SM::UserDirectory" Xid="CA.SM::UserDirectory@0e-65c03a1f-4a90-4160-a9e3-f3be9b404549" CreatedDateTime="2017-07-25T16:15:20" ModifiedDateTime="2017-07-25T18:49:06" UpdatedBy="siteminder 20170725184906.0Z" UpdateMethod="GUI" ExportType="Replace">
             <Property Name="CA.SM::UserDirectory.Server">
-                <LinkValue><XREF>Ref00017</XREF></LinkValue>
+                <LinkValue><XREF>Ref00015</XREF></LinkValue>
             </Property>
             <Property Name="CA.SM::UserDirectory.Namespace">
                 <StringValue>AD:</StringValue>
@@ -8755,7 +8755,7 @@
                 <NumberValue>30</NumberValue>
             </Property>
             <Property Name="CA.SM::UserDirectory.SearchRoot">
-                <LinkValue><XREF>Ref00015</XREF></LinkValue>
+                <LinkValue><XREF>Ref00017</XREF></LinkValue>
             </Property>
             <Property Name="CA.SM::UserDirectory.SearchResults">
                 <NumberValue>0</NumberValue>
@@ -8773,7 +8773,7 @@
                 <LinkValue><XREF>Ref00004</XREF></LinkValue>
             </Property>
             <Property Name="CA.SM::UserDirectory.Password" Sensitive="Yes">
-                <StringValue>{AESKW}c4GT49aA11eXabVPiamBl55IYXViEIbn</StringValue>
+                <StringValue>{AESKW}Ca45Xn8qLmYWuvGd9yEFPReOKQgc+TWl</StringValue>
             </Property>
             <Property Name="CA.SM::UserDirectory.SecureConnection">
                 <BooleanValue>false</BooleanValue>
@@ -8924,9 +8924,9 @@
                 <NumberValue>0</NumberValue>
             </Property>
         </Object><!-- Xid="CA.SM::Agent@01-6b3886b0-64ec-4f91-8aa8-4dded2a0cf9a" -->
-        <Object Class="CA.SM::Agent" Xid="CA.SM::Agent@01-0c6f6849-2c95-4d59-9674-53404f8454c0" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdatedBy="XPSDictionary::Import" UpdateMethod="Internal" ExportType="Replace">
+        <Object Class="CA.SM::Agent" Xid="CA.SM::Agent@01-50bd29ae-a755-4555-8b71-eb216dea98e5" CreatedDateTime="2017-07-27T10:49:12" ModifiedDateTime="2017-07-27T10:49:12" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Replace">
             <Property Name="CA.SM::Agent.Name">
-                <StringValue>test</StringValue>
+                <StringValue>test_agent</StringValue>
             </Property>
             <Property Name="CA.SM::Agent.AgentTypeLink">
                 <LinkValue>
@@ -8934,12 +8934,12 @@
                 </LinkValue>
             </Property>
             <Property Name="CA.SM::Agent.Desc">
-                <StringValue>##test_agent##</StringValue>
+                <StringValue>##Agent for Testing##</StringValue>
             </Property>
             <Property Name="CA.SM::Agent.RealmHintAttrId">
                 <NumberValue>0</NumberValue>
             </Property>
-        </Object><!-- Xid="CA.SM::Agent@01-0c6f6849-2c95-4d59-9674-53404f8454c0" -->
+        </Object><!-- Xid="CA.SM::Agent@01-50bd29ae-a755-4555-8b71-eb216dea98e5" -->
         <Object Class="CA.SM::AgentGroup" Xid="CA.SM::AgentGroup@02-508a55db-ebc0-4753-8157-a622db30fcff" CreatedDateTime="2017-07-25T09:02:35" ModifiedDateTime="2017-07-25T09:02:35" UpdatedBy="XPSDictionary::Import" UpdateMethod="Internal" ExportType="Replace">
             <Property Name="CA.SM::AgentGroup.Name">
                 <StringValue>BackChannelAgentGroup</StringValue>
@@ -9744,7 +9744,7 @@
                 <NumberValue>5</NumberValue>
             </Property>
             <Property Name="CA.SM::AuthScheme.Param">
-                <LinkValue><XREF>Ref00016</XREF></LinkValue>
+                <LinkValue><XREF>Ref00014</XREF></LinkValue>
             </Property>
             <Property Name="CA.SM::AuthScheme.Type">
                 <NumberValue>14</NumberValue>
@@ -9913,7 +9913,7 @@
                 <NumberValue>5</NumberValue>
             </Property>
             <Property Name="CA.SM::AuthScheme.Param">
-                <LinkValue><XREF>Ref00014</XREF></LinkValue>
+                <LinkValue><XREF>Ref00016</XREF></LinkValue>
             </Property>
             <Property Name="CA.SM::AuthScheme.Type">
                 <NumberValue>11</NumberValue>
@@ -11244,7 +11244,7 @@
                     <BooleanValue>false</BooleanValue>
                 </Property>
                 <Property Name="CA.SM::Variable.Definition" Sensitive="Yes">
-                    <StringValue>{AESKW}biAfFnyMhMW0g47N2xibZJQvNaigf9ApKG7wj2TiyIwYdTbE0JaBWCcStxcVNVhTJkigTbNhupfEkyHdrIQpYpAWJ9JbGw2GbSIsGE/9DrdIDqB3iGyMcckf4kF5BQ+0qlFJvAu0rgK9ewaREtIr0zu8I6YP8UE6rvl3s0LNVOBrsMxL9fal+ntIswT/3EMaAnrWWmLdS1EcX2v/ufX3gD8BOG1f/5Xt</StringValue>
+                    <StringValue>{AESKW}cj6kSpAQBapijV0SnxR4ojwLXc0HGOxVEy8aEQMiBpKMHPdQziD4w1A0LbhM0azSZlW7ooAMqGugG40ApWsRMWNyvKui3g96sHt1ff+8rBrty+uCzuj6LD94H91m3zn8dNbKcDXb+I47ZQEMFibHNR+kj1JtVI0yxp3N4tDGHgzXqAcO1PkZAglc1Gl+YKu3C8YedQtTv6y59Kdv2L+vJQ+jCCLa2juD</StringValue>
                 </Property>
                 <Property Name="CA.SM::Variable.Name">
                     <StringValue>AllowNotification</StringValue>
@@ -11263,7 +11263,7 @@
                     <BooleanValue>false</BooleanValue>
                 </Property>
                 <Property Name="CA.SM::Variable.Definition" Sensitive="Yes">
-                    <StringValue>{AESKW}nVtuLgKqCX31eSbNWKv8w0xFUNCpSEZpYlhkCyWdc1BRz6zEUumiQSBEnCA4pTmqRF9yA2a7DRJJJsSGE0EOpAT67JzFk29G9BabVHaozDR8EwTBRg2bmnSFOvOo//aoR3bRdMfDey6cQsd5eUhS9VKI7XUSlK5NWluGlQTcPzKVJhUAgYDH1Qj/mXR/7Kq2JuGWbezPs+y9g9EACl1v8Wvb7E0uHM6cQQnHuNQhKVI=</StringValue>
+                    <StringValue>{AESKW}gbRPUL7pg/W5+LNYMGSiT93qvblcwaiItCfjvgOuevmr02RcyfMneKQuqycGjRd9jbEhrL9odNwv8d0PtpUmLS+nCCI23SgRk6TtzAP0ZVuKxACfto1CySxWWHNiJEqRsVJFHVhhtBYWLsEN6XX8YOaco/cdl8rTICvMrsxu8JC2qQziN3Pt907/o2LFIL8BhyN1VtytN+DEVQfspLcCnE37lrusfYFtPkIQ3nWCxKI=</StringValue>
                 </Property>
                 <Property Name="CA.SM::Variable.Name">
                     <StringValue>AllowSessionSync</StringValue>
@@ -11401,7 +11401,7 @@
         </Object><!-- Xid="CA.SM::Domain@03-1c7ac22e-6646-4c61-8f2f-6261a0ef3a92" -->
         <Object Class="CA.SM::Admin" Xid="CA.SM::Admin@12-db6cc94e-3f1f-419d-bf6d-f6e324b43771" CreatedDateTime="2017-07-25T09:02:34" ModifiedDateTime="2017-07-25T09:02:34" UpdatedBy="XPSDictionary::Import" UpdateMethod="Internal" ExportType="Replace">
             <Property Name="CA.SM::Admin.Password" Sensitive="Yes">
-                <StringValue>{AESKW}lSyLeeuXx5ogbOQZd1zt8bznCcgWvtKm</StringValue>
+                <StringValue>{AESKW}wg4Xga7xSoXHWQ+g97MXiLKb5d6/F9kz</StringValue>
             </Property>
             <Property Name="CA.SM::Admin.Name">
                 <StringValue>siteminder</StringValue>
@@ -11415,7 +11415,7 @@
         </Object><!-- Xid="CA.SM::Admin@12-db6cc94e-3f1f-419d-bf6d-f6e324b43771" -->
         <Object Class="CA.SM::Admin" Xid="CA.SM::Admin@12-221a9edd-0f19-4a29-8aa2-dc43a1d4cb00" CreatedDateTime="2017-07-25T09:02:34" ModifiedDateTime="2017-07-25T09:02:34" UpdatedBy="XPSDictionary::Import" UpdateMethod="Internal" ExportType="Replace">
             <Property Name="CA.SM::Admin.Password" Sensitive="Yes">
-                <StringValue>{AESKW}vs0GSUSZfHypTs2+wQ4BAZpUpXrFQJYga3O1LCBFR24/4khwHjvmnYsaOqnp9FoZSriusjZfFsd2Za71Lf02lMNEyVD7dfHWp+IxX6bNJyxWRUZQZP4RdicT6qECvbY5qI7STJq61P19r/Pk5Ffl5rSf2Z+j5YPSSaKJ1qFvz8QY24Kudy3md/c20AgKCLEv</StringValue>
+                <StringValue>{AESKW}IY/Tbo35Cri/bkocjpA/gjGFV6ZwGi50+/9AXbOch58sCCMBuD8wd6wC/WnltYy0zcicoK9rEmv4u7a7hMfAYbOnZHoxKRMnllLCBPN2xneFaxwT6qvX1urB2q0JjDGOBAokAippZAIPXK1qOjLdKlNxvm9WR7iCdebYtrcvS6pIZr8RfXWKpSGseHjRwVJX</StringValue>
             </Property>
             <Property Name="CA.SM::Admin.Name">
                 <StringValue>SMWAMUI:172.31.4.193__0</StringValue>
@@ -11583,7 +11583,7 @@
                     <ParameterName Name="DefaultOCSPUpdaterSleepPeriod"/>
                 </Product>
                 <Product Name="FED">
-                    <ParameterName Name="AdminPassword" Encrypted="true">{AESKW}xTI7yPe/pf5xS4ED8WwsRLW6Z/G+Qqkf</ParameterName>
+                    <ParameterName Name="AdminPassword" Encrypted="true">{AESKW}JxAhTJ2W2VzeDiM9aAsROJE8jfIKn/XS</ParameterName>
                     <ParameterName Name="EncryptedAdminPassword"/>
                 </Product>
                 <Product Name="SPS">
@@ -11620,4 +11620,4 @@
         </Administrator>
     </SecurityData>
 </XPS>
-<!-- 03:27:09 2017-07-27 -->
+<!-- 03:51:43 2017-07-27 -->

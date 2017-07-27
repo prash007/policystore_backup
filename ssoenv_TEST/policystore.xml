@@ -33,22 +33,6 @@
                 <NumberValue>47</NumberValue>
             </Property>
         </Object>
-        <Object Class="CA.SM::Agent" CreatedDateTime="2017-07-25T09:02:35" ExportType="Replace" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Agent@01-0c6f6849-2c95-4d59-9674-53404f8454c0">
-            <Property Name="CA.SM::Agent.AgentTypeLink">
-                <LinkValue>
-                    <XID>CA.SM::AgentType@10-8d78bb96-ae15-11d1-9cdd-006008aac24b</XID>
-                </LinkValue>
-            </Property>
-            <Property Name="CA.SM::Agent.Desc">
-                <StringValue>##test_agent##</StringValue>
-            </Property>
-            <Property Name="CA.SM::Agent.Name">
-                <StringValue>test</StringValue>
-            </Property>
-            <Property Name="CA.SM::Agent.RealmHintAttrId">
-                <NumberValue>0</NumberValue>
-            </Property>
-        </Object>
         <Object Class="CA.SM::Agent" CreatedDateTime="2017-07-25T09:02:35" ExportType="Replace" ModifiedDateTime="2017-07-25T09:02:35" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Agent@01-217f64f2-d1ee-400c-a317-2bf037ca197c">
             <Property Name="CA.SM::Agent.AgentTypeLink">
                 <LinkValue>
@@ -60,6 +44,22 @@
             </Property>
             <Property Name="CA.SM::Agent.Name">
                 <StringValue>proxy_agent2</StringValue>
+            </Property>
+            <Property Name="CA.SM::Agent.RealmHintAttrId">
+                <NumberValue>0</NumberValue>
+            </Property>
+        </Object>
+        <Object Class="CA.SM::Agent" CreatedDateTime="2017-07-27T10:49:12" ExportType="Replace" ModifiedDateTime="2017-07-27T10:49:12" UpdateMethod="GUI" UpdatedBy="siteminder" Xid="CA.SM::Agent@01-50bd29ae-a755-4555-8b71-eb216dea98e5">
+            <Property Name="CA.SM::Agent.AgentTypeLink">
+                <LinkValue>
+                    <XID>CA.SM::AgentType@10-8d78bb96-ae15-11d1-9cdd-006008aac24b</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::Agent.Desc">
+                <StringValue>##Agent for Testing##</StringValue>
+            </Property>
+            <Property Name="CA.SM::Agent.Name">
+                <StringValue>test_agent</StringValue>
             </Property>
             <Property Name="CA.SM::Agent.RealmHintAttrId">
                 <NumberValue>0</NumberValue>
@@ -625,7 +625,7 @@
                 <StringValue>ASAWLSDefaultSettings</StringValue>
             </Property>
         </Object>
-        <Object Class="CA.SM::AgentConfig" CreatedDateTime="2017-07-25T09:02:34" ExportType="Replace" ModifiedDateTime="2017-07-25T09:35:15" UpdateMethod="GUI" UpdatedBy="siteminder 20170725093515.0Z" Xid="CA.SM::AgentConfig@21-ae8c78db-2ab2-4455-82c4-1ef45866cedb">
+        <Object Class="CA.SM::AgentConfig" CreatedDateTime="2017-07-25T09:02:34" ExportType="Replace" ModifiedDateTime="2017-07-27T10:50:00" UpdateMethod="GUI" UpdatedBy="siteminder 20170727105000.0Z" Xid="CA.SM::AgentConfig@21-ae8c78db-2ab2-4455-82c4-1ef45866cedb">
             <Property Name="CA.SM::AgentConfig.Attributes">
                 <StringValue>#4xCompatMode=2=</StringValue>
                 <StringValue>#CookiePath=0=no</StringValue>
